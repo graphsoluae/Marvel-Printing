@@ -3,7 +3,7 @@ saveBtn.addEventListener("click", function () {
 
 
 
-    var vcard = "BEGIN:VCARD\nVERSION:3.0\nFN;CHARSET=UTF-8:\nN: JIBU;KURIAN;\nTEL;TYPE=CELL:+971505803922\nTEL;TYPE=CELL:+971557065410\nEMAIL:kurian@marvelstationery.com\nORG:Marvel Printing\nTITLE:Manager\nADR; TYPE = WORK: ;;; Abudhabi;United Arab Emirates;;\nTITLE:\nREV:Wed Mar 22 2023 12: 55: 50 GMT + 0400(Gulf Standard Time)\nEND:VCARD";
+    var vcard = "BEGIN:VCARD\nVERSION:3.0\nFN;CHARSET=UTF-8:\nN: JIBU;KURIAN;\nTEL;TYPE=CELL:+971505803922\nTEL;TYPE=CELL:+97126216716\nEMAIL:kurian@marvelstationery.com\nORG:Marvel Printing\nTITLE:Manager\nADR; TYPE = WORK: ;;; Abudhabi;United Arab Emirates;;\nTITLE:\nREV:Wed Mar 22 2023 12: 55: 50 GMT + 0400(Gulf Standard Time)\nEND:VCARD";
 
     var blob = new Blob([vcard], { type: "text/vcard" });
     var url = URL.createObjectURL(blob);
