@@ -30,7 +30,7 @@ body {
 
 #section2 {
     width: 50%;
-    height: 400px;
+    height: 430px;
     min-width: 350px;
     max-width: 350px;
     background-color: #282f38;
@@ -99,9 +99,9 @@ body {
 
 .data-field {
     z-index: 0;
-    width: 180px;
+    width: 250px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -111,10 +111,28 @@ body {
     width: 160px;
     min-width: 160px;
 }
+.email{
+    font-size: 15px;
+}
 
 .services{
     padding: 10px 20px;
     font-size: 14px;
 }
 
+.button-save{
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-save:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 @media (min-width: 200px) {}
